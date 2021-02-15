@@ -3,7 +3,7 @@ import random
 from scipy.integrate import odeint
 
 class DoublePendulum(object):
-  # code based on:  
+  # code based on: https://github.com/zaman13/Double-Pendulum-Motion-Animation/
   def __init__(self, m1, m2, l1, l2, g, initial_state, origin=(0,0)):
     self.m1 = m1
     self.m2 = m2
